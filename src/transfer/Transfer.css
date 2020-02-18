@@ -1,0 +1,71 @@
+.Transfer {
+    letter-spacing: 1px solid black;
+    max-width: 24rem;
+    margin-top: 10rem;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.Navbar {
+    box-shadow: 0px 0px 10px 0px #806c6c6c;
+    z-index: 1000;
+}
+
+.btn-navbar {
+    margin: 0 0.6rem 0;
+}
+
+.box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px #806c6c6c;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 1em;
+}
+
+.box p {
+    color: black;
+    text-align: left;
+    line-height: 0.5em;
+    font-size: 12;
+}
+
+.box input[type="id_transaksi"],
+.box input[type="rekening"],
+.box input[type="uang"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #DCDCDC;
+    padding: 7px 7px;
+    width: 260px;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.box input[type="submit"] {
+    background: midnightblue;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    padding: 11px 11px;
+    width: 275px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 4em;
+}

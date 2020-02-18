@@ -1,0 +1,24 @@
+.Home {
+    letter-spacing: 1px solid black;
+}
+
+.Navbar {
+    box-shadow: 0px 0px 10px 0px #806c6c6c;
+    z-index: -1;
+}
+
+.btn-navbar {
+    margin: 0 0.6rem 0;
+}
+
+.history-body {
+    margin-top: 70px;
+	padding: 2%;
+    width: 500px;
+    text-align: left;
+    position: absolute;
+}
+
+.listResult {
+    float:right;
+}
